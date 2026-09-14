@@ -1,0 +1,100 @@
+backend:
+  name: github
+  repo: zaoadonaiel/daveyduarte
+  branch: main
+
+# Where uploaded images go, and the URL prefix used to reference them
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "settings"
+    label: "Site Content"
+    files:
+      - name: "site"
+        label: "Site Content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Navigation"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Brand name", name: "brand", widget: "string" }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - label: "Heading"
+                name: "heading"
+                widget: "text"
+                hint: "HTML allowed, e.g. <br> for a line break and <em>...</em> for italics."
+              - { label: "Lede paragraph", name: "lede", widget: "text" }
+              - { label: "Roles line", name: "roles", widget: "string", hint: "HTML allowed (e.g. &middot; for a dot separator)." }
+              - { label: "Portrait image", name: "image", widget: "image" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Body paragraphs"
+                name: "body"
+                widget: "list"
+                label_singular: "Paragraph"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Signature name", name: "signature_name", widget: "string" }
+              - { label: "Signature role", name: "signature_role", widget: "string" }
+
+          - label: "Ventures"
+            name: "ventures"
+            widget: "list"
+            label_singular: "Venture"
+            hint: "The page shows the first 7 items in this exact order — adding or removing entries beyond 7 will not appear on the site without a template change."
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Link label", name: "linkLabel", widget: "string" }
+
+          - label: "Ministry"
+            name: "ministry"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Body paragraphs"
+                name: "body"
+                widget: "list"
+                label_singular: "Paragraph"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - { label: "Pull quote", name: "quote", widget: "text" }
+              - { label: "Link URL", name: "url", widget: "string" }
+              - { label: "Emblem image", name: "image", widget: "image" }
+
+          - label: "Practice"
+            name: "practice"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Disciplines"
+                name: "disciplines"
+                widget: "list"
+                label_singular: "Discipline"
+                hint: "The page shows exactly 4 of these in order."
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lede", name: "lede", widget: "text" }
+              - { label: "Email", name: "email", widget: "string" }
+
+          - { label: "Footer text", name: "footer_text", widget: "string" }
