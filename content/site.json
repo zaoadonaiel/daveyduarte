@@ -3,7 +3,7 @@
     "brand": "Davey Duarte"
   },
   "hero": {
-    "eyebrow": "Based in Lajas, Puerto Rico",
+    "eyebrow": "Updated September 14, 2026",
     "heading": "Builder of brands,<br>platforms, and<br><em>the people behind them.</em>",
     "lede": "A bondservant of Jesus Christ, husband, father of four, and an entrepreneur with over two decades of experience building brands, websites, and scalable tech platforms.",
     "roles": "Creative Director &nbsp;&middot;&nbsp; Entrepreneur &nbsp;&middot;&nbsp; Developer &nbsp;&middot;&nbsp; Photographer &nbsp;&middot;&nbsp; Videographer",
@@ -22,50 +22,50 @@
   },
   "ventures": [
     {
-      "icon": "images/venture-akradan.svg",
       "name": "Akradan",
+      "icon": "images/venture-akradan.svg",
       "description": "A multi-model AI workspace that gives users access to 300+ AI models through a single platform. Built with RAG technology, unlimited storage, lifetime conversation memory, unlimited team collaboration, a custom agent builder, and social discovery features like public profiles and agent sharing. Instead of locking you into one model or hiding costs behind a flat “unlimited” subscription, Akradan puts you in control of both the AI you use and what you pay for it.",
       "url": "https://akradan.com",
       "linkLabel": "akradan.com"
     },
     {
-      "icon": "images/venture-x-digital.svg",
       "name": "The X Digital™",
+      "icon": "images/venture-x-digital.svg",
       "description": "A full-service web design and development agency focused on building high-performing websites, apps, and digital systems that drive real results. We combine modern design, powerful development, and strategic marketing to help businesses grow, scale, and stand out online. From custom builds to SEO and hosting, we handle everything so our clients can focus on what they do best.",
       "url": "https://thexdigital.com",
       "linkLabel": "theXdigital.com"
     },
     {
-      "icon": "images/venture-copyright-records.svg",
       "name": "Copyright Records™",
+      "icon": "images/venture-copyright-records.svg",
       "description": "A digital platform that allows creators to securely register, store, and protect their original work with timestamped records and verifiable proof of ownership. Built for artists, entrepreneurs, and innovators, it provides an easy way to establish authorship and safeguard intellectual property — giving creators confidence that their work is documented, protected, and backed by a reliable system.",
       "url": "https://copyrightrecords.com",
       "linkLabel": "copyrightrecords.com"
     },
     {
-      "icon": "images/venture-im-in-hawaii.svg",
       "name": "I’m In Hawaii™",
+      "icon": "images/venture-im-in-hawaii.svg",
       "description": "A web and mobile app that connects visitors with local businesses across the Hawaiian Islands. Users can discover places, build itineraries, and connect directly with businesses, while owners get powerful profiles with analytics and promotion tools. The goal is simple — drive more visibility, customers, and growth for Hawaii’s local economy.",
       "url": "https://iminhawaii.com",
       "linkLabel": "iminhawaii.com"
     },
     {
-      "icon": "images/venture-hawaii-gallery.svg",
       "name": "Hawaii.Gallery™",
+      "icon": "images/venture-hawaii-gallery.svg",
       "description": "A clothing brand inspired by the culture, beauty, and lifestyle of Hawaii. Each piece is designed to capture the spirit of the islands, blending art, storytelling, and everyday wear into something meaningful and unique — sharing Hawaii’s essence with the world through clean, creative designs that people can wear and connect with.",
       "url": "https://hawaii.gallery",
       "linkLabel": "hawaii.gallery"
     },
     {
-      "icon": "images/venture-daveys-app.svg",
       "name": "Davey’s App™",
+      "icon": "images/venture-daveys-app.svg",
       "description": "An innovative platform designed to connect users with local service providers through a simple, map-based experience. Currently under development, it will allow businesses to showcase their services, build trust through verified profiles, and connect directly with customers in real time — a transparent network that makes finding and offering services easier than ever.",
       "url": "https://daveysapp.com",
       "linkLabel": "daveysapp.com"
     },
     {
-      "icon": "images/logo-mark.svg",
       "name": "The next one",
+      "icon": "images/logo-mark.svg",
       "description": "Number eight is usually somebody else’s idea. If you have one that needs building properly — and you want it built by the person who will still be answering the phone in three years — start here.",
       "url": "#contact",
       "linkLabel": "Start a conversation"
@@ -84,10 +84,22 @@
   "practice": {
     "heading": "What clients actually hire me for",
     "disciplines": [
-      { "title": "Web & App Builds", "body": "Custom sites, e-commerce, and product applications — architecture through launch." },
-      { "title": "AI Systems", "body": "Lead-capture chat, content automation, and multi-model workspaces built for real operations." },
-      { "title": "Search & Growth", "body": "SEO, AEO, and paid search programs that compound instead of spiking." },
-      { "title": "Brand & Film", "body": "Identity, photography and video — the craft side, still done personally." }
+      {
+        "title": "Web & App Builds",
+        "body": "Custom sites, e-commerce, and product applications — architecture through launch."
+      },
+      {
+        "title": "AI Systems",
+        "body": "Lead-capture chat, content automation, and multi-model workspaces built for real operations."
+      },
+      {
+        "title": "Search & Growth",
+        "body": "SEO, AEO, and paid search programs that compound instead of spiking."
+      },
+      {
+        "title": "Brand & Film",
+        "body": "Identity, photography and video — the craft side, still done personally."
+      }
     ]
   },
   "contact": {
