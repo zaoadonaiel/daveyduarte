@@ -95,6 +95,14 @@ collections:
             fields:
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Lede", name: "lede", widget: "text" }
-              - { label: "Email", name: "email", widget: "string" }
+
+          - label: "Elsewhere links"
+            name: "elsewhere"
+            widget: "list"
+            label_singular: "Link"
+            hint: "The page shows exactly these 5 links, in order — adding or removing entries will not appear on the site without a template change."
+            fields:
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Link label", name: "linkLabel", widget: "string" }
 
           - { label: "Footer text", name: "footer_text", widget: "string" }

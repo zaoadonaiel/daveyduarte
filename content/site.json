@@ -97,8 +97,14 @@
   },
   "contact": {
     "heading": "Have something worth building?",
-    "lede": "I take on a limited number of projects directly each year, and my team handles the rest. Tell me what you’re working on and I’ll come back to you personally.",
-    "email": "me@daveyduarte.com"
+    "lede": "I take on a limited number of projects directly each year, and my team handles the rest. Tell me what you’re working on and I’ll come back to you personally."
   },
+  "elsewhere": [
+    { "url": "https://thexdigital.com", "linkLabel": "theXdigital.com" },
+    { "url": "https://akradan.com", "linkLabel": "akradan.com" },
+    { "url": "https://copyrightrecords.com", "linkLabel": "copyrightrecords.com" },
+    { "url": "https://creativemaui.com", "linkLabel": "creativemaui.com" },
+    { "url": "https://zaoadonaiel.com", "linkLabel": "zaoadonaiel.com" }
+  ],
   "footer_text": "© 2026 Zao Adonai Express Trust. All rights reserved."
 }
