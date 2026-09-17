@@ -62,13 +62,6 @@
       "description": "An innovative platform designed to connect users with local service providers through a simple, map-based experience. Currently under development, it will allow businesses to showcase their services, build trust through verified profiles, and connect directly with customers in real time — a transparent network that makes finding and offering services easier than ever.",
       "url": "https://daveysapp.com",
       "linkLabel": "daveysapp.com"
-    },
-    {
-      "name": "The next one",
-      "icon": "images/logo-mark.svg",
-      "description": "Number eight is usually somebody else’s idea. If you have one that needs building properly — and you want it built by the person who will still be answering the phone in three years — start here.",
-      "url": "#contact",
-      "linkLabel": "Start a conversation"
     }
   ],
   "ministry": {
@@ -105,7 +98,7 @@
   "contact": {
     "heading": "Have something worth building?",
     "lede": "I take on a limited number of projects directly each year, and my team handles the rest. Tell me what you’re working on and I’ll come back to you personally.",
-    "email": "info@thexdigital.com"
+    "email": "me@daveyduarte.com"
   },
   "footer_text": "© 2026 Zao Adonai Express Trust. All rights reserved."
 }
